@@ -19,6 +19,7 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/xiaomi/sm7125-common
 
 PRODUCT_COPY_FILES += \
+    vendor/xiaomi/sm7125-common/proprietary/bin/charger:$(TARGET_COPY_OUT_SYSTEM)/bin/charger \
     vendor/xiaomi/sm7125-common/proprietary/etc/permissions/privapp-permissions-qti.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-qti.xml \
     vendor/xiaomi/sm7125-common/proprietary/etc/sysconfig/qti_whitelist.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/qti_whitelist.xml \
     vendor/xiaomi/sm7125-common/proprietary/product/etc/permissions/privapp-permissions-hotword.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-hotword.xml \
